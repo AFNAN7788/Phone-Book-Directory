@@ -1,0 +1,23 @@
+# Compiled C++ executables
+*.o
+*.gch
+*.exe
+
+# Project-specific files
+phonebook
+phonebook.exe
+contacts.txt
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files (if any)
+.vscode/
+.idea/
+*.suo
+*.user
+*.ilk
+*.pdb
+*.obj
+*.vcproj.user
