@@ -6,29 +6,29 @@ This project implements a simple console-based Phone Book Directory application 
 
 Features
 
-•
-Add New Contact: Users can add new contacts with name, phone number, email (optional), and address (optional). Input validation is performed for name, number, and email.
 
-•
-Display All Contacts: View a list of all stored contacts, sorted alphabetically by name.
+1. Add New Contact: Users can add new contacts with name, phone number, email (optional), and address (optional). Input validation is performed for name, number, and email.
 
-•
-Search Contact: Find a specific contact by name and display their details.
 
-•
-Update Contact: Modify existing contact details (name, number, email, address) by searching for the contact's name.
+2. Display All Contacts: View a list of all stored contacts, sorted alphabetically by name.
 
-•
-Delete Contact: Remove a contact from the directory by name.
 
-•
-Data Persistence: Contacts are automatically saved to and loaded from contacts.txt.
+3. Search Contact: Find a specific contact by name and display their details.
 
-•
-Input Validation: Ensures valid names, phone numbers (digits only), and email formats.
 
-•
-Sorted Display: Contacts are maintained and displayed in alphabetical order by name.
+4. Update Contact: Modify existing contact details (name, number, email, address) by searching for the contact's name.
+
+
+5. Delete Contact: Remove a contact from the directory by name.
+
+
+6. Data Persistence: Contacts are automatically saved to and loaded from contacts.txt.
+
+
+7. Input Validation: Ensures valid names, phone numbers (digits only), and email formats.
+
+
+8. Sorted Display: Contacts are maintained and displayed in alphabetical order by name.
 
 How to Compile and Run
 
@@ -36,76 +36,35 @@ This project is a C++ console application and can be compiled using a standard C
 
 Prerequisites
 
-•
 A C++ compiler (e.g., g++, MinGW, MSVC)
 
 Compilation Steps
 
-1.
-Save the source code: Ensure the Untitled1.cpp file (or rename it to main.cpp for clarity) is in your desired project directory.
+1. Save the source code: Ensure the Untitled1.cpp file (or rename it to main.cpp for clarity) is in your desired project directory.
 
-2.
-Open a terminal or command prompt.
 
-3.
-Navigate to the project directory where your main.cpp file is located.
+2. Open a terminal or command prompt.
 
-4.
-Compile the code using your C++ compiler. For g++, use the following command:
 
-Bash
+3. Navigate to the project directory where your main.cpp file is located.
 
+
+4. Compile the code using your C++ compiler. For g++, use the following command:
 
 g++ main.cpp -o phonebook
-
-
-
-
-
-•
-g++: The C++ compiler.
-
-•
-main.cpp: Your source code file.
-
-•
--o phonebook: Specifies the output executable file name as phonebook (or phonebook.exe on Windows).
 
 Running the Application
 
 After successful compilation, you can run the application from the terminal:
 
-•
 On Linux/macOS:
-
-Bash
-
-
 ./phonebook
 
-
-
-
-
-•
 On Windows:
-
-Bash
-
-
 .\phonebook.exe
 
 
-
 The application will then present a menu-driven interface in the console.
-
-
-
-Usage
-
-Upon running the application, you will be greeted with a menu:
-
-Plain Text
 
 
         DIGITAL PHONE BOOK DIRECTORY
@@ -119,16 +78,7 @@ Plain Text
 
 
 
-Enter the number corresponding to the action you wish to perform and follow the on-screen prompts.
 
-File Structure
-
-Plain Text
-
-
-.
-├── main.cpp              # Main source code file for the Phone Book Directory
-└── contacts.txt          # (Generated) Stores contact data persistently
 
 
 License
