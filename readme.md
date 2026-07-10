@@ -40,7 +40,7 @@ A C++ compiler (e.g., g++, MinGW, MSVC)
 
 Compilation Steps
 
-1. Save the source code: Ensure the Untitled1.cpp file (or rename it to main.cpp for clarity) is in your desired project directory.
+1. Save the source code in your desired project directory.
 
 
 2. Open a terminal or command prompt.
@@ -58,9 +58,11 @@ Running the Application
 After successful compilation, you can run the application from the terminal:
 
 On Linux/macOS:
+
 ./phonebook
 
 On Windows:
+
 .\phonebook.exe
 
 
